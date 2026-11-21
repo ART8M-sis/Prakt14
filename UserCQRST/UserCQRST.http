@@ -1,0 +1,11 @@
+@UserCQRST_HostAddress = http://localhost:5015
+
+GET {{UserCQRST_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{UserCQRST_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
